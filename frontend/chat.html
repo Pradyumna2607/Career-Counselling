@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PathWise — Career Assistant</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="app-shell">
+
+  <!-- Sidebar -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sidebar-brand"><span class="brand-dot"></span>PathWise</div>
+
+    <button class="new-chat-btn" id="newChatBtn">＋ New chat</button>
+
+    <div class="session-list" id="sessionList"></div>
+
+    <div class="sidebar-user">
+      <div class="user-chip">
+        <div class="user-avatar" id="userAvatar">?</div>
+        <span id="userName">Loading…</span>
+      </div>
+      <button class="logout-btn" id="logoutBtn">Log out</button>
+    </div>
+  </aside>
+
+  <!-- Main chat -->
+  <main class="chat-main">
+    <div class="chat-header">
+      <div>
+        <button class="menu-toggle" id="menuToggle">☰</button>
+        <h2 style="display:inline-block">Career Assistant</h2>
+        <div class="subtitle">Remembers your conversation · NLP intent engine (Naive Bayes + SVM) · Ranked recommendations</div>
+      </div>
+    </div>
+
+    <div class="chat-scroll" id="chatScroll">
+      <div class="empty-state" id="emptyState">
+        <h3>What's on your mind about your career?</h3>
+        <p>Tell me your interests, favourite subjects, or the stream you're in, and I'll match you against
+        real career paths — qualifications, entrance exams, salary, and growth outlook included.
+        I'll also remember what we've discussed, so you can just say "what about its salary?" instead
+        of repeating the career name.</p>
+      </div>
+    </div>
+
+    <div class="suggestion-chips" id="suggestionChips">
+      <button class="chip" data-msg="I love coding and mathematics, suggest a career for me">I love coding & maths</button>
+      <button class="chip" data-msg="I am interested in biology and helping people, what career suits me?">Interested in biology</button>
+      <button class="chip" data-msg="I am confused about my future">I feel confused about my future</button>
+      <button class="chip" data-msg="How are you?">Just say hi 👋</button>
+    </div>
+
+    <div class="chat-input-bar">
+      <div class="chat-input-wrap">
+        <textarea id="messageInput" rows="1" placeholder="Ask about careers, qualifications, exams, salaries…"></textarea>
+        <button class="send-btn" id="sendBtn">➤</button>
+      </div>
+    </div>
+  </main>
+
+</div>
+
+<script src="/static/js/chat.js"></script>
+</body>
+</html>

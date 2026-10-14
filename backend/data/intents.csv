@@ -1,0 +1,261 @@
+text,intent
+hi,greeting
+hello,greeting
+hey there,greeting
+good morning,greeting
+good evening,greeting
+good afternoon,greeting
+hii,greeting
+hey bot,greeting
+namaste,greeting
+yo,greeting
+hello assistant,greeting
+hey career assistant,greeting
+hiya,greeting
+whats up,greeting
+hello there how are you,greeting
+greetings,greeting
+hey i need some help,greeting
+hi there,greeting
+hello can you help me,greeting
+good day,greeting
+bye,goodbye
+goodbye,goodbye
+see you later,goodbye
+talk to you soon,goodbye
+thanks bye,goodbye
+i am leaving now,goodbye
+catch you later,goodbye
+ok bye,goodbye
+bye bye,goodbye
+see you,goodbye
+i have to go now,goodbye
+gotta go bye,goodbye
+farewell,goodbye
+thats all for now bye,goodbye
+i am done for today bye,goodbye
+talk later,goodbye
+thank you,thanks
+thanks a lot,thanks
+thank you so much,thanks
+appreciate your help,thanks
+that was helpful thanks,thanks
+thanks for the info,thanks
+thank you very much,thanks
+thanks that helps,thanks
+great thank you,thanks
+much appreciated,thanks
+awesome thanks,thanks
+thanks for the guidance,thanks
+that was useful thank you,thanks
+who are you,about_bot
+what can you do,about_bot
+what is this,about_bot
+tell me about yourself,about_bot
+how does this chatbot work,about_bot
+what is your purpose,about_bot
+what is pathwise,about_bot
+how do you help students,about_bot
+are you an ai,about_bot
+explain what you do,about_bot
+what kind of help do you provide,about_bot
+how do you generate recommendations,about_bot
+what can you help me with,about_bot
+what are you capable of,about_bot
+help me choose a career,career_recommendation
+suggest a career for me,career_recommendation
+what career should i choose,career_recommendation
+i dont know what career to pick,career_recommendation
+recommend me some careers,career_recommendation
+i am confused about my career,career_recommendation
+suggest career options based on my interest,career_recommendation
+i like coding and math suggest a career,career_recommendation
+i am interested in biology what career suits me,career_recommendation
+i love drawing and art what should i become,career_recommendation
+i am good at numbers and finance suggest career,career_recommendation
+i enjoy helping people what career is good,career_recommendation
+i like solving problems and logic,career_recommendation
+suggest career for someone who loves technology,career_recommendation
+what career matches my interest in writing,career_recommendation
+i am interested in robots and machines,career_recommendation
+i like business and marketing suggest a path,career_recommendation
+i want a career in science,career_recommendation
+give me career options in commerce stream,career_recommendation
+what jobs suit someone who loves psychology,career_recommendation
+i am good at chemistry what career should i do,career_recommendation
+i enjoy designing things what career fits me,career_recommendation
+i love mathematics and physics suggest options,career_recommendation
+what should someone who likes writing stories become,career_recommendation
+i want to work with computers suggest a career,career_recommendation
+suggest careers for a commerce student,career_recommendation
+i love public speaking what career should i pursue,career_recommendation
+i am interested in environment and nature,career_recommendation
+what career is good for someone who likes management,career_recommendation
+i enjoy analyzing data and numbers,career_recommendation
+suggest me options if i like fashion,career_recommendation
+what qualification do i need for data scientist,qualification_query
+what degree is required to become a doctor,qualification_query
+what is the eligibility for software engineer,qualification_query
+what qualification is needed for chartered accountant,qualification_query
+what degree do i need for mechanical engineer,qualification_query
+tell me the education required for lawyer,qualification_query
+what qualifications are needed to become a psychologist,qualification_query
+minimum qualification for civil engineer,qualification_query
+what degree should i pursue for ai engineer,qualification_query
+educational requirements for teacher,qualification_query
+what course do i need for graphic designer,qualification_query
+qualification needed for civil services officer,qualification_query
+what degree is required for product manager,qualification_query
+eligibility criteria for fashion designer,qualification_query
+what entrance exam is required for medicine,exam_query
+which exam should i give for engineering,exam_query
+what exam do i need for law,exam_query
+entrance exam for ca,exam_query
+what exams are needed for civil services,exam_query
+which test should i take for mba,exam_query
+exam required for data scientist,exam_query
+what entrance exam for nift,exam_query
+which entrance test for civil engineer,exam_query
+what exam should i write for psychology,exam_query
+entrance exam details for pharmacist,exam_query
+what test is needed for cybersecurity analyst,exam_query
+which exams should i prepare for ai engineer,exam_query
+what is the salary of a software engineer,salary_query
+how much does a data scientist earn,salary_query
+average salary for mechanical engineer,salary_query
+what is the pay for doctors,salary_query
+salary of chartered accountant,salary_query
+how much money can i make as ai engineer,salary_query
+what is the income of a lawyer,salary_query
+how much do product managers earn,salary_query
+salary range for graphic designer,salary_query
+what is the pay scale for teacher,salary_query
+how much can i earn as a psychologist,salary_query
+whats the salary for civil engineer,salary_query
+what is the future scope of ai engineer,future_scope_query
+is data science a good career for future,future_scope_query
+what is the growth prospect of cybersecurity,future_scope_query
+will software engineering remain in demand,future_scope_query
+future scope of mechanical engineering,future_scope_query
+is this career growing,future_scope_query
+what is the demand for product managers in future,future_scope_query
+is chartered accountancy a good long term career,future_scope_query
+will data analysts be in demand,future_scope_query
+what is the growth outlook for robotics engineer,future_scope_query
+is teaching a stable career in the future,future_scope_query
+tell me about software engineer,career_details
+tell me about data scientist career,career_details
+give me details about doctor career,career_details
+what does a ux designer do,career_details
+explain the role of a business analyst,career_details
+what does a civil engineer do,career_details
+describe the job of a psychologist,career_details
+tell me more about chartered accountant,career_details
+give me information about mechanical engineer,career_details
+what does an hr manager do,career_details
+explain the work of a journalist,career_details
+tell me about the entrepreneur career path,career_details
+describe what a cybersecurity analyst does,career_details
+what does an entrepreneur do,career_details
+what does a lawyer do,career_details
+what does a data analyst do,career_details
+what does a teacher do,career_details
+what does a marketing manager do,career_details
+what is the job role of a robotics engineer,career_details
+what skills are needed for ai engineer,skills_query
+what skills do i need for data science,skills_query
+what skills are required to become a graphic designer,skills_query
+skills needed for chartered accountant,skills_query
+what skills should i develop for cybersecurity,skills_query
+what abilities are required for lawyer,skills_query
+what skills do product managers need,skills_query
+required skills for civil engineer,skills_query
+what skills matter for journalist,skills_query
+what skills are important for teaching,skills_query
+no i college in nagpur,college_query
+best college in maharashtra for engineering,college_query
+which college should i choose for cse,college_query
+i got 50 percentile in mhtcet did i get admission in sb jain in cse branch,college_query
+suggest colleges for mba in nagpur,college_query
+which college is best for medical in india,college_query
+what is the cutoff for cse in mumbai colleges,college_query
+recommend engineering colleges in pune,college_query
+which college has good placement for it,college_query
+what percentile do i need for a good college,college_query
+i am from science stream what should i do,stream_query
+i am in commerce stream suggest options,stream_query
+i am confused between science and commerce,stream_query
+which stream should i choose after 10th,stream_query
+what are the options after 12th science,stream_query
+should i pick science or arts,stream_query
+which stream is best for engineering,stream_query
+what stream should i choose if i like biology,stream_query
+i want to know which stream suits me,stream_query
+help me pick a stream after 10th standard,stream_query
+yes,affirmation
+yes please,affirmation
+sure,affirmation
+sounds good,affirmation
+okay do that,affirmation
+yeah go ahead,affirmation
+yes that sounds great,affirmation
+sure go ahead,affirmation
+okay,affirmation
+alright lets do it,affirmation
+yes i would like that,affirmation
+definitely,affirmation
+no,negation
+no thanks,negation
+not interested,negation
+nah,negation
+i dont want that,negation
+no not now,negation
+maybe later,negation
+not really,negation
+i dont think so,negation
+no that is not what i meant,negation
+how are you,small_talk
+how are you doing,small_talk
+how are you today,small_talk
+whats your name,small_talk
+what is your name,small_talk
+who are you called,small_talk
+tell me a joke,small_talk
+crack a joke,small_talk
+got any jokes,small_talk
+do you know any jokes,small_talk
+say something funny,small_talk
+make me laugh,small_talk
+are you human,small_talk
+are you a bot,small_talk
+are you real,small_talk
+are you an ai,small_talk
+who made you,small_talk
+who built you,small_talk
+who created you,small_talk
+nice to meet you,small_talk
+whats up with you,small_talk
+tell me about your day,small_talk
+i am confused about my future,reassurance
+i am stressed about my career,reassurance
+i dont know what to do with my life,reassurance
+i feel lost about my career choice,reassurance
+i am worried about choosing the wrong career,reassurance
+everyone else seems to know what they want except me,reassurance
+i feel so much pressure to choose the right career,reassurance
+i am scared of making the wrong decision,reassurance
+i feel anxious about my future,reassurance
+i dont know if i am making the right choice,reassurance
+tell me more,follow_up_more
+what else,follow_up_more
+anything else,follow_up_more
+go on,follow_up_more
+more details please,follow_up_more
+can you elaborate,follow_up_more
+tell me more about it,follow_up_more
+tell me more about that,follow_up_more
+what about the first one,follow_up_more
+continue,follow_up_more
+give me more information,follow_up_more
+elaborate more on that,follow_up_more
+i want to know more,follow_up_more

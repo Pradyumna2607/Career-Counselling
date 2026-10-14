@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PathWise — AI Career Counselling</title>
+<link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="auth-shell">
+  <!-- Left brand panel -->
+  <div class="auth-brand">
+    <div class="brand-mark">
+      <span class="brand-dot"></span>PathWise
+    </div>
+    <h1>Find the career<br>that fits <em>you</em>.</h1>
+    <p class="brand-copy">
+      An AI counsellor that reads what you tell it — your interests, subjects, and
+      strengths — and ranks real career paths against a live knowledge base of
+      qualifications, entrance exams, and salary outlooks.
+    </p>
+    <ul class="brand-points">
+      <li><strong>NLP intent engine</strong> — Naive Bayes + SVM ensemble understands what you're asking</li>
+      <li><strong>Entity extraction</strong> — pulls out streams, skills & interests automatically</li>
+      <li><strong>Ranked recommendations</strong> — content-based matching, not a static quiz</li>
+    </ul>
+    <div class="brand-footer">Final Year Major Project — AI-Based Career Counselling System</div>
+  </div>
+
+  <!-- Right auth panel -->
+  <div class="auth-panel">
+    <div class="auth-card" id="authCard">
+
+      <div class="tab-switch">
+        <button class="tab-btn active" data-tab="login">Log in</button>
+        <button class="tab-btn" data-tab="signup">Sign up</button>
+      </div>
+
+      <!-- LOGIN FORM -->
+      <form id="loginForm" class="auth-form active">
+        <label>Email</label>
+        <input type="email" id="loginEmail" placeholder="you@example.com" required>
+
+        <label>Password</label>
+        <input type="password" id="loginPassword" placeholder="••••••••" required>
+
+        <div class="form-error" id="loginError"></div>
+
+        <button type="submit" class="btn-primary">Log in</button>
+      </form>
+
+      <!-- SIGNUP FORM -->
+      <form id="signupForm" class="auth-form">
+        <label>I am a</label>
+        <select id="signupRole">
+          <option value="student">Student</option>
+          <option value="parent">Parent</option>
+          <option value="teacher">Teacher</option>
+        </select>
+
+        <label>Full name</label>
+        <input type="text" id="signupName" placeholder="Full name" required>
+
+        <label>Email</label>
+        <input type="email" id="signupEmail" placeholder="you@example.com" required>
+
+        <label>Stream (optional)</label>
+        <select id="signupStream">
+          <option value="">Not sure yet</option>
+          <option value="science">Science</option>
+          <option value="commerce">Commerce</option>
+          <option value="arts">Arts / Humanities</option>
+        </select>
+
+        <label>Password</label>
+        <input type="password" id="signupPassword" placeholder="At least 6 characters" required>
+
+        <div class="form-error" id="signupError"></div>
+
+        <button type="submit" class="btn-primary">Create account</button>
+      </form>
+
+    </div>
+  </div>
+</div>
+
+<script src="/static/js/auth.js"></script>
+</body>
+</html>
