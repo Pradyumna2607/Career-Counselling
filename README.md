@@ -1,3 +1,4 @@
+
 # PathWise — AI-Based Career Counselling Chatbot
 
 A full-stack career counselling assistant that understands student questions with a
@@ -140,3 +141,7 @@ pytest -q
 
 ## Contributing, security, license
 See [CONTRIBUTING.md](CONTRIBUTING.md), [SECURITY.md](SECURITY.md) and [LICENSE](LICENSE) (MIT).
+=======
+# Career-Counselling
+AI career counselling chatbot built with Flask and scikit-learn. Uses a Naive Bayes + SVM intent ensemble, rule-based entity extraction, a TF-IDF cosine-similarity career recommender and per-session memory for natural follow-ups. Covers 30 careers across 18 intents, with user accounts, chat history and feedback.
+>>>>>>> 07af4f7a2e6f1dbc533737cdc4d707e84ebc1990
